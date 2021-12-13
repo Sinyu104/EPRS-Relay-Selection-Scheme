@@ -12,7 +12,7 @@ In our work, each relay maintains two finite buffers, including a data buffer, w
 
 ### How to run the code?
 ```
-git clone git@github.com:kaochenlong/dummy-git.git
+git clone https://github.com/Sinyu104/EPRS-Relay-Selection-Scheme.git
 ```
 
 ### About the code
