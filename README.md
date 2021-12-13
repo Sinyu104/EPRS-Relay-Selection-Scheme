@@ -20,7 +20,7 @@ At first, a range of SNR, the number of relays, energy size, and data size shoul
 
 - Receiving Algorithm (SelectRecei)
 
-    In this function, four sets has been allocated, such as **RS**, **minchargeeff**, **mindatarly**, **maxengrly**. The defination of RS is $\mathcal{RS}=\lbrace R_{k} \in \tilde{\mathcal{R}} \vert\gamma_{h_k} \geq \gamma_{\text{th}} \rbrace$, where $\gamma_{h_k}$ denotes the SNR in $S-R_k$ side. Then, we first prioritize the relays in RS according to their residual charging space defined as $\phi_k = \min( \epsilon_k+E_k, E_{\max}) - \epsilon_k$. We would put the relays with minimum $\phi$ into the set *minchargeeff*. After that, the relays with shortest data length would be assigned into *mindatarly*. The relays with longest energy buffer would be assigned into set *maxengrly*. 
+    In this function, four sets has been allocated, such as **RS**, **minchargeeff**, **mindatarly**, **maxengrly**. The defination of RS is <img src="https://latex.codecogs.com/svg.latex?\Large&space;\mathcal{RS}=\lbrace R_{k} \in \tilde{\mathcal{R}} \vert\gamma_{h_k} \geq \gamma_{\text{th}} \rbrace" />, where $\gamma_{h_k}$ denotes the SNR in $S-R_k$ side. Then, we first prioritize the relays in RS according to their residual charging space defined as $\phi_k = \min( \epsilon_k+E_k, E_{\max}) - \epsilon_k$. We would put the relays with minimum $\phi$ into the set *minchargeeff*. After that, the relays with shortest data length would be assigned into *mindatarly*. The relays with longest energy buffer would be assigned into set *maxengrly*. 
    
 - Transmitting Algorithm (SelectTrans)
 
